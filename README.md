@@ -8,3 +8,4 @@
 - Day 6: Escape the Maze
 - Day 7: Hangman
 - Day 8: Caesar Cipher
+- Day 9: Silent Auction
