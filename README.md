@@ -1,5 +1,6 @@
 # 100DaysofPython
 
+BEGINNER
 - Day 1: Band Name Generator
 - Day 2: Tip Calculator
 - Day 3: Treasure Island
@@ -14,3 +15,6 @@
 - Day 12: Guessing Game
 - Day 13: Debugging (No Code)
 - Day 14: Higher Lower
+
+INTERMEDIATE
+- Day 15: Coffee Machine
