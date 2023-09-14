@@ -18,3 +18,4 @@ BEGINNER
 
 INTERMEDIATE
 - Day 15: Coffee Machine
+- Day 16: OOP Coffee Machine

@@ -1,5 +1,4 @@
-import hangman_art
-import hangman_words
+from Beginner.Day_7 import hangman_art, hangman_words
 import random
 
 word_list = hangman_words.word_list
