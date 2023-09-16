@@ -21,3 +21,4 @@ INTERMEDIATE
 - Day 16: OOP Coffee Machine
 - Day 17: Quiz Game
 - Day 18: Hirst Painting
+- Day 19: Etch-a-Sketch and Turtle Race
