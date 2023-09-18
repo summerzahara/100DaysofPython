@@ -22,3 +22,4 @@ INTERMEDIATE
 - Day 17: Quiz Game
 - Day 18: Hirst Painting
 - Day 19: Etch-a-Sketch and Turtle Race
+- Day 20: Snake Game Part 1
