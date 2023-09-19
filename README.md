@@ -23,3 +23,4 @@ INTERMEDIATE
 - Day 18: Hirst Painting
 - Day 19: Etch-a-Sketch and Turtle Race
 - Day 20: Snake Game Part 1
+- Day 21: Snake Game Part 2
