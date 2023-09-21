@@ -25,3 +25,4 @@ INTERMEDIATE
 - Day 20: Snake Game Part 1
 - Day 21: Snake Game Part 2
 - Day 22: Pong
+- Day 23: Turtle Crossing
