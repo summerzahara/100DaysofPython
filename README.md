@@ -26,4 +26,5 @@ INTERMEDIATE
 - Day 21: Snake Game Part 2
 - Day 22: Pong
 - Day 23: Turtle Crossing
-- Day 24: Update Snake Game (Days 21 & 22) - High Score && Mail Merge
+- Day 24: Mail Merge (csv files)
+- Day 25: US Map Quiz (csv files with pandas)
