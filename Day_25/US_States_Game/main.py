@@ -43,10 +43,10 @@ while game_active:
     if score == 50:
         game_active = False
 
-missed_answers = []
-for state in states:
-    if state not in correct_guesses:
-        missed_answers.append(state)
+missed_answers = [state for state in states if state not in correct_guesses]
+# for state in states:
+#     if state not in correct_guesses:
+#         missed_answers.append(state)
 
 state_dict = {
     "states": missed_answers
