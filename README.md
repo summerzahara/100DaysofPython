@@ -28,4 +28,5 @@ INTERMEDIATE
 - Day 23: Turtle Crossing
 - Day 24: Mail Merge (csv files)
 - Day 25: US Map Quiz (csv files with pandas)
-- Dat 26: NATO Phonetic Alphabet Translator
+- Day 26: NATO Phonetic Alphabet Translator
+- Day 27: Unit Converter (TKinter)
