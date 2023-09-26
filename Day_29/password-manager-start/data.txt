@@ -1,0 +1,8 @@
+Website: summer.com; Email: summer.hamilton@hey.com; Password: password
+Website: summer.org; Email: summer.hamilton@hey.com; Password: password2
+Website: summer.edu; Email: summer.hamilton@hey.com; Password: password3
+Website: summer.io; Email: summer.hamilton@hey.com; Password: password7
+Website: amazon.com; Email: summer.hamilton@hey.com; Password: supersafepassword
+Website: twitter; Email: summer.hamilton@hey.com; Password: tweettweet
+Website: tumblr; Email: summer.hamilton@hey.com; Password: ilovegifs
+Website: supersecureco; Email: summer.hamilton@hey.com; Password: 8!%pHTZe8y84Obf

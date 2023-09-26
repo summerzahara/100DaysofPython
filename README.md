@@ -31,3 +31,4 @@ INTERMEDIATE
 - Day 26: NATO Phonetic Alphabet Translator
 - Day 27: Unit Converter (Tkinter)
 - Day 28: Pomodoro App (Tkinter)
+- Day 29: Password Manager App (Tkinter)
