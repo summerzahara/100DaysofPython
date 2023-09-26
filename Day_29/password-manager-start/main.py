@@ -78,7 +78,7 @@ email_label = Label(text="Email/Username: ", font=(FONT_NAME, 12, "normal"))
 email_label.grid(column=1, row=3)
 
 email_entry = Entry(width=35)
-email_entry.insert(0, "summer.hamilton@hey.com")
+email_entry.insert(0, "summer@email.com")
 email_entry.grid(column=2, columnspan=2, row=3)
 
 # Generate Password
