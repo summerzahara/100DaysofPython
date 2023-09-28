@@ -32,3 +32,4 @@ INTERMEDIATE
 - Day 27: Unit Converter (Tkinter)
 - Day 28: Pomodoro App (Tkinter)
 - Day 29: Password Manager App (Tkinter)
+- Day 30: Update Password Manager App - Search Functionality (JSON)
