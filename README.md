@@ -34,3 +34,4 @@ INTERMEDIATE
 - Day 29: Password Manager App (Tkinter)
 - Day 30: Update Password Manager App - Search Functionality (JSON)
 - Day 31: Flash Card App (Tkinter, Pandas, Try/Except)
+- Day 32: Birthday Wisher (smtplib)
