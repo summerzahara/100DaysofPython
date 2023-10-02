@@ -36,3 +36,4 @@ INTERMEDIATE
 - Day 31: Flash Card App (Tkinter, Pandas, Try/Except)
 - Day 32: Birthday Wisher (smtplib)
 - Day 33: ISS Tracker (apis, requests)
+- Day 34: Quiz Game (Tkinter, APIs)
