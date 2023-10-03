@@ -37,3 +37,4 @@ INTERMEDIATE
 - Day 32: Birthday Wisher (smtplib)
 - Day 33: ISS Tracker (apis, requests)
 - Day 34: Quiz Game (Tkinter, APIs)
+- Day 35: Weather Rain Checker (API Authentication)
