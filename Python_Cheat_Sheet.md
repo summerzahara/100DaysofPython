@@ -35,6 +35,20 @@ def my_func(data: int) -> bool:
         return False
 ```
 
+# Environment Variables
+```zsh
+export API_KEY=834389049038490
+env
+```
+
+```python
+import os
+
+api_key = os.environ.get("API_KEY")
+```
+
+
+
 # APIs
 ```python
 import requests
