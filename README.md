@@ -38,4 +38,5 @@ INTERMEDIATE
 - Day 33: ISS Tracker (apis, requests)
 - Day 34: Quiz Game (Tkinter, APIs)
 - Day 35: Weather Rain Checker (API Authentication)
-- Day 36: Stock News Tracker
+- Day 36: Stock News Tracker (requests: get)
+- Day 37: Habit Tracker (requests: post, put, delete)
