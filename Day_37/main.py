@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-import requests
+import requests, os
 import datetime as dt
 
 load_dotenv()

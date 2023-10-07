@@ -40,3 +40,4 @@ INTERMEDIATE
 - Day 35: Weather Rain Checker (API Authentication)
 - Day 36: Stock News Tracker (requests: get)
 - Day 37: Habit Tracker (requests: post, put, delete)
+- Day 38: Exercise Tracker
