@@ -19,7 +19,6 @@ class FlightSearch:
         self.header = {
             "apikey": FLIGHT_API,
         }
-        self.price_list = []
 
     def iata_code(self):
         params = {
@@ -37,11 +36,9 @@ class FlightSearch:
         response = requests.get(url=f"{FLIGHT_URL}/v2/search", params=params, headers=self.header)
         response.raise_for_status()
         result = response.json()["data"]
-        my_list = []
+
         for item in result:
             ic(f"{item['cityTo']}: £{item['price']}")
-            my_list.append([item['cityTo'], item['price']])
-            ic(my_list)
-        return my_list
+            return [item["cityTo"], item["price"]]
 
 

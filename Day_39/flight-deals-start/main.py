@@ -67,9 +67,12 @@ sheet_data = [
 ]
 
 search = []
+desired = []
 for n in sheet_data:
     trip = FlightSearch(n["city"])
     # ic(n["iataCode"], n["lowestPrice"])
-    search = trip.flight_search(iata_code=n["iataCode"], price=n["lowestPrice"])
+    search.append(trip.flight_search(iata_code=n["iataCode"], price=n["lowestPrice"]))
+    desired.append([n["city"], n["lowestPrice"]])
 ic(search)
+ic(desired)
 
