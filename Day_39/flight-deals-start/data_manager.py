@@ -5,33 +5,31 @@ import requests
 
 load_dotenv()
 
+SHEET_URL = os.environ["SHEET_URL"]
+SHEET_TOKEN = os.environ["SHEET_TOKEN"]
+
+
 class DataManager:
-    #This class is responsible for talking to the Google Sheet.
+    # This class is responsible for talking to the Google Sheet.
     def __init__(self):
-        self.sheet_url = os.environ["SHEET_URL"]
-        self.city = ""
-        self.iata_code = ""
-        self.price = ""
-        self.prices = {
-            "City": self.city,
-            "IATA Code": self.iata_code,
-            "Lowest Price": self.price
-        }
-        self.params = {
-            "prices": self.prices
-        }
-        self.sheet_token = os.environ["SHEET_TOKEN"]
-        self.headers = {
-            "Authorization": self.sheet_token,
-        }
-
-
-    def update_sheet(self):
-        response = requests.post(url=self.sheet_url, json=self.params, headers=self.headers)
-        response.raise_for_status()
-        return ic(response.json())
+        self.data = {}
 
     def view_sheet(self):
-        response = requests.get(url=self.sheet_url, headers=self.headers)
+        response = requests.get(url=SHEET_URL)
         response.raise_for_status()
-        return ic(response.json())
+        self.data = response.json()["prices"]
+        return self.data
+
+    def update_row(self):
+        for row in self.data:
+            params = {
+                "price": {
+                    "iataCode": row["iataCode"]
+                }
+            }
+            response = requests.put(
+                url=f"{SHEET_URL}/{row['id']}",
+                json=params
+            )
+            response.raise_for_status()
+            ic(response.json())
