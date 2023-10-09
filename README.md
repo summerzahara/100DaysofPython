@@ -45,3 +45,5 @@ INTERMEDIATE
 - Day 40: Flight Club (email notifications)
 
 WEB FOUNDATION: INTERMEDIATE
+- Day 41: Web Foundation
+- Day 42: Web Foundations (Contined)
