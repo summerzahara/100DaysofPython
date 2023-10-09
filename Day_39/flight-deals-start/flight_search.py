@@ -38,7 +38,7 @@ class FlightSearch:
         result = response.json()["data"]
 
         for item in result:
-            ic(f"{item['cityTo']}: £{item['price']}")
-            return [item["cityTo"], item["price"]]
+            # ic(f"{item['cityTo']}: £{item['price']}")
+            return item['cityTo'], item['price']
 
 

@@ -1,6 +1,7 @@
 # This file will need to use the DataManager,FlightSearch, FlightData, NotificationManager classes to achieve the program requirements.
 from data_manager import DataManager
 from flight_search import FlightSearch
+from notification_manager import NotificationManager
 from icecream import ic
 
 data = DataManager()
@@ -66,13 +67,22 @@ sheet_data = [
     },
 ]
 
-search = []
-desired = []
+search = {}
 for n in sheet_data:
     trip = FlightSearch(n["city"])
     # ic(n["iataCode"], n["lowestPrice"])
-    search.append(trip.flight_search(iata_code=n["iataCode"], price=n["lowestPrice"]))
-    desired.append([n["city"], n["lowestPrice"]])
-ic(search)
-ic(desired)
+    search_city, search_price = trip.flight_search(iata_code=n["iataCode"], price=n["lowestPrice"])
+    search[search_city] = search_price
+# ic(search)
 
+messages = []
+for item in sheet_data:
+    try:
+        if item["lowestPrice"] >= search[item["city"]]:
+            message = f"Low price alert! Only £{search[item['city']]} to fly from London to {item['city']}"
+            messages.append(message)
+    except KeyError:
+        pass
+
+notify = NotificationManager(messages)
+notify.send_notifications()
