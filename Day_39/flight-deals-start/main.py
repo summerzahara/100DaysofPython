@@ -2,6 +2,7 @@
 from data_manager import DataManager
 from flight_search import FlightSearch
 from notification_manager import NotificationManager
+from sheety_alt import sheet_data, user_data
 from icecream import ic
 
 data = DataManager()
@@ -19,60 +20,16 @@ data = DataManager()
 # data.update_row()
 # data.view_sheet()
 
-sheet_data = [
-    {
-        "city": "Paris",
-        "iataCode": "PAR",
-        "lowestPrice": 54,
-    },
-    {
-        "city": "Berlin",
-        "iataCode": "BER",
-        "lowestPrice": 42,
-    },
-    {
-        "city": "Tokyo",
-        "iataCode": "TYO",
-        "lowestPrice": 485,
-    },
-    {
-        "city": "Sydney",
-        "iataCode": "SYD",
-        "lowestPrice": 551,
-    },
-    {
-        "city": "Istanbul",
-        "iataCode": "IST",
-        "lowestPrice": 95,
-    },
-    {
-        "city": "Kuala Lampur",
-        "iataCode": "KUL",
-        "lowestPrice": 414,
-    },
-    {
-        "city": "New York",
-        "iataCode": "NYC",
-        "lowestPrice": 240,
-    },
-    {
-        "city": "San Francisco",
-        "iataCode": "SFO",
-        "lowestPrice": 260,
-    },
-    {
-        "city": "Cape Town",
-        "iataCode": "CPT",
-        "lowestPrice": 378,
-    },
-]
 
 search = {}
 for n in sheet_data:
     trip = FlightSearch(n["city"])
     # ic(n["iataCode"], n["lowestPrice"])
-    search_city, search_price = trip.flight_search(iata_code=n["iataCode"], price=n["lowestPrice"])
-    search[search_city] = search_price
+    try:
+        search_city, search_price = trip.flight_search(iata_code=n["iataCode"], price=n["lowestPrice"])
+        search[search_city] = search_price
+    except TypeError:
+        pass
 # ic(search)
 
 messages = []
@@ -86,3 +43,5 @@ for item in sheet_data:
 
 notify = NotificationManager(messages)
 notify.send_notifications()
+for item in user_data:
+    notify.send_emails(item["email"])

@@ -1,11 +1,15 @@
+import os
+import smtplib
+
+from dotenv import load_dotenv
 from icecream import ic
 from twilio.rest import Client
-from dotenv import load_dotenv
-import os, requests
 
 load_dotenv()
 
 FROM_CITY = "London-LON"
+FROM_EMAIL = os.environ["FROM_EMAIL"]
+EMAIL_PASS = os.environ["EMAIL_PASS"]
 
 
 class NotificationManager:
@@ -25,3 +29,19 @@ class NotificationManager:
                 to=os.environ["USER_PHONE"],
             )
             ic(notification.status)
+
+    def send_emails(self, email):
+        sender_email = FROM_EMAIL
+        password = EMAIL_PASS
+        to_email = email
+
+        for message in self.messages:
+            # new_message = message.encode("utf-8")
+            with smtplib.SMTP("smtp.gmail.com") as connection:
+                connection.starttls()
+                connection.login(user=sender_email, password=password)
+                connection.sendmail(
+                    from_addr=sender_email,
+                    to_addrs=to_email,
+                    msg=f"Subject:New Deal!\n\n{message}".encode("utf-8"),
+                )

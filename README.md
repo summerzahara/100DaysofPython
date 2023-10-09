@@ -41,3 +41,5 @@ INTERMEDIATE
 - Day 36: Stock News Tracker (requests: get)
 - Day 37: Habit Tracker (requests: post, put, delete)
 - Day 38: Exercise Tracker
+- Day 39: Flight Club (text notifications)
+- Day 40: Flight Club (email notifications)
