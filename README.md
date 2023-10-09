@@ -43,3 +43,5 @@ INTERMEDIATE
 - Day 38: Exercise Tracker
 - Day 39: Flight Club (text notifications)
 - Day 40: Flight Club (email notifications)
+
+WEB FOUNDATION: INTERMEDIATE
