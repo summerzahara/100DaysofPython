@@ -48,3 +48,4 @@ WEB FOUNDATION: INTERMEDIATE
 - Day 41: Web Foundation
 - Day 42: Web Foundations (Contined)
 - Day 43: Intro to CSS
+- Day 44: Intermediate CSS
