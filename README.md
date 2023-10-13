@@ -49,3 +49,4 @@ WEB FOUNDATION: INTERMEDIATE
 - Day 42: Web Foundations (Contined)
 - Day 43: Intro to CSS
 - Day 44: Intermediate CSS
+- Day 45: Web Scraping (Beautiful Soup)
