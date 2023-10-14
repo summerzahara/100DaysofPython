@@ -120,3 +120,8 @@ import html
 copyright = "&copy; 2023 Summer. All rights reserved."
 html.unescape(copyright)
 ```
+
+# List comprehensions
+```python
+new_list = [new_item for item in list]
+```
