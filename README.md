@@ -50,3 +50,4 @@ WEB FOUNDATION: INTERMEDIATE
 - Day 43: Intro to CSS
 - Day 44: Intermediate CSS
 - Day 45: Web Scraping (Beautiful Soup)
+- Day 46: Web Scraping / Spotify API
