@@ -51,3 +51,4 @@ WEB FOUNDATION: INTERMEDIATE
 - Day 44: Intermediate CSS
 - Day 45: Web Scraping (Beautiful Soup)
 - Day 46: Web Scraping / Spotify API
+- Day 47: Amazon Price Checker
