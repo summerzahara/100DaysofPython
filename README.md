@@ -52,3 +52,4 @@ WEB FOUNDATION: INTERMEDIATE
 - Day 45: Web Scraping (Beautiful Soup)
 - Day 46: Web Scraping / Spotify API
 - Day 47: Amazon Price Checker
+- Day 48: Sellenuim
