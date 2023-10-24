@@ -53,3 +53,4 @@ WEB FOUNDATION: INTERMEDIATE
 - Day 46: Web Scraping / Spotify API
 - Day 47: Amazon Price Checker
 - Day 48: Cookie Clicker (Sellenuim)
+- Day 49: LinkedIn Job Applications
