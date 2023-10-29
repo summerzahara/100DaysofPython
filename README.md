@@ -54,3 +54,4 @@ WEB FOUNDATION: INTERMEDIATE
 - Day 47: Amazon Price Checker
 - Day 48: Cookie Clicker (Sellenuim)
 - Day 49: LinkedIn Job Applications
+- Day 50: Tinder Swiper
