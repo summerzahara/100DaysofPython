@@ -55,3 +55,4 @@ WEB FOUNDATION: INTERMEDIATE
 - Day 48: Cookie Clicker (Sellenuim)
 - Day 49: LinkedIn Job Applications
 - Day 50: Tinder Swiper
+- Day 51: [Twitter Bot](https://github.com/summerzahara/InternetSpeedBot)
