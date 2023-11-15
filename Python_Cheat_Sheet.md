@@ -47,6 +47,17 @@ import os
 api_key = os.environ.get("API_KEY")
 ```
 
+```zsh
+pip3 install python-dotenv
+```
+```python
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+api_key = os.environ["API_KEY"]
+```
+
 
 
 # APIs
