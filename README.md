@@ -56,3 +56,5 @@ WEB FOUNDATION: INTERMEDIATE
 - Day 49: LinkedIn Job Applications
 - Day 50: Tinder Swiper
 - Day 51: [Twitter Bot](https://github.com/summerzahara/InternetSpeedBot)
+- Day 52: Instagram Follower Bot [Skipped due to account issues]
+- Day 53: [Zillow Listing Scraper to Spreadsheet](https://github.com/summerzahara/ZillowSearch.git)
