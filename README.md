@@ -58,3 +58,7 @@ WEB FOUNDATION: INTERMEDIATE
 - Day 51: [Twitter Bot](https://github.com/summerzahara/InternetSpeedBot)
 - Day 52: Instagram Follower Bot [Skipped due to account issues]
 - Day 53: [Zillow Listing Scraper to Spreadsheet](https://github.com/summerzahara/ZillowSearch.git)
+- Day 54: [Intro to Web Development with Flask](https://github.com/summerzahara/HelloFlask.git)
+- Day 55: [Flask HTML & URLS - Higher Lower Game](https://github.com/summerzahara/higher-lower.git)
+- Day 56: [Flask Render HTML with static files and templates - Name Card](https://github.com/summerzahara/my-contact-card.git)
+- Day 57: [Flask Templating with Jinja - Blog Capstone](https://github.com/summerzahara/blog-capstone.git)
