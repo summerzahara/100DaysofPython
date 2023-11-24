@@ -63,3 +63,4 @@ WEB FOUNDATION: INTERMEDIATE
 - Day 56: [Flask Render HTML with static files and templates - Name Card](https://github.com/summerzahara/my-contact-card.git)
 - Day 57: [Flask Templating with Jinja - Blog Capstone](https://github.com/summerzahara/blog-capstone.git)
 - Day 58: [Introduction to Bootstrap](https://github.com/summerzahara/Boostrap-Intro.git)
+- Day 59: [Flask Blog Capstone Part 2 - Adding Styling](https://github.com/summerzahara/upgraded-blog.git)
