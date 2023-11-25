@@ -16,7 +16,7 @@ print(quote)
 today = dt.datetime.now()
 if today.weekday() == 4:
     print("success")
-    with smtplib.SMTP("smtp.gmail.com") as connect:
+    with smtplib.SMTP("smtp.gmail.com:587") as connect:
         connect.starttls()
         connect.login(user=my_email, password=my_password)
         connect.sendmail(
