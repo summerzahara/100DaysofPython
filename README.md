@@ -49,6 +49,8 @@ WEB FOUNDATION: INTERMEDIATE
 - Day 42: Web Foundations (Contined)
 - Day 43: Intro to CSS
 - Day 44: Intermediate CSS
+
+INTERMEDIATE (CONTINUED)
 - Day 45: Web Scraping (Beautiful Soup)
 - Day 46: Web Scraping / Spotify API
 - Day 47: Amazon Price Checker
@@ -63,4 +65,8 @@ WEB FOUNDATION: INTERMEDIATE
 - Day 56: [Flask Render HTML with static files and templates - Name Card](https://github.com/summerzahara/my-contact-card.git)
 - Day 57: [Flask Templating with Jinja - Blog Capstone](https://github.com/summerzahara/blog-capstone.git)
 - Day 58: [Introduction to Bootstrap](https://github.com/summerzahara/Boostrap-Intro.git)
+
+ADVANCED
 - Day 59: [Flask Blog Capstone Part 2 - Adding Styling](https://github.com/summerzahara/upgraded-blog.git)
+- Day 60: [Make POST requests with Flask and HTML](https://github.com/summerzahara/blog-with-contact-form.git)
+- Day 61: [Building Advanced Forms with Flask-WTForms](https://github.com/summerzahara/flask-secrets.git)
