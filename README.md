@@ -70,3 +70,4 @@ ADVANCED
 - Day 59: [Flask Blog Capstone Part 2 - Adding Styling](https://github.com/summerzahara/upgraded-blog.git)
 - Day 60: [Make POST requests with Flask and HTML](https://github.com/summerzahara/blog-with-contact-form.git)
 - Day 61: [Building Advanced Forms with Flask-WTForms](https://github.com/summerzahara/flask-secrets.git)
+- Day 62: [Advanced Flask, WTForms, Boortstrap and CSV](https://github.com/summerzahara/coffee-and-wifi.git)
