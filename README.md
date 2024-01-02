@@ -71,3 +71,4 @@ ADVANCED
 - Day 60: [Make POST requests with Flask and HTML](https://github.com/summerzahara/blog-with-contact-form.git)
 - Day 61: [Building Advanced Forms with Flask-WTForms](https://github.com/summerzahara/flask-secrets.git)
 - Day 62: [Advanced Flask, WTForms, Boortstrap and CSV](https://github.com/summerzahara/coffee-and-wifi.git)
+- Day 63: [Advanced Databases with SQLite and SQLAlchemy](https://github.com/summerzahara/library-project.git)
